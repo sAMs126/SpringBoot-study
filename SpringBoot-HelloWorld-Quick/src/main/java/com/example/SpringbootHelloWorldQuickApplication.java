@@ -1,0 +1,17 @@
+package com.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author sAMs126
+ * @date 2020/1/1
+ */
+@SpringBootApplication
+public class SpringbootHelloWorldQuickApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringbootHelloWorldQuickApplication.class, args);
+	}
+
+}
