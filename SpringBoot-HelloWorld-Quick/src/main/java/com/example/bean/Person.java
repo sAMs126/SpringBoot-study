@@ -1,5 +1,6 @@
 package com.example.bean;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -17,8 +18,11 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "person" )
 public class Person {
+//	@Value("${person.last-name}")
 	private String lastName;
+//	@Value("#{11*2}")
 	private Integer age;
+//	@Value("true")
 	private Boolean boss;
 	private Date bDay;
 
