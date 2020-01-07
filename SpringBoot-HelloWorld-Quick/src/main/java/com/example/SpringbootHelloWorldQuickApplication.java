@@ -1,7 +1,9 @@
 package com.example;
 
+import com.example.bean.Person;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 /**
  * @author sAMs126
