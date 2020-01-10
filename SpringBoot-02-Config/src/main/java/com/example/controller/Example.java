@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Example {
 
-	@Value("${person.lastName}")
+//	@Value("${person.lastName}")
 	private String name;
 
 	@RequestMapping("/hello")
