@@ -1,0 +1,26 @@
+# 使用 YAML 多文档块
+server:
+  port: 80
+spring:
+  profiles:
+    active: dev
+---
+
+spring:
+  profiles: dev
+server:
+  port: 90
+
+---
+
+spring:
+  profiles: test
+server:
+  port: 95
+
+---
+
+spring:
+  profiles: prod
+server:
+  port: 99
