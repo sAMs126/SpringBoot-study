@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Springboot06WebRestfulApplication {
+public class Springboot06WebStaticAutoConfigurationApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Springboot06WebRestfulApplication.class, args);
+		SpringApplication.run(Springboot06WebStaticAutoConfigurationApplication.class, args);
 	}
 
 }
